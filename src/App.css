@@ -14,12 +14,19 @@ button {
   background-color: #FFCC02;
   color: black;
   padding: 10px 20px;
-  border: none;
+  border: 1px solid #d1a00e; /* Slightly darker border for depth */
   cursor: pointer;
   font-family: 'Lora', serif;
+  margin-right: 10px; /* Adds spacing between buttons */
+  box-shadow: 2px 2px 0 #d1a00e; /* Shadow for 3D effect */
+  transition: transform 0.1s, box-shadow 0.1s; /* Smooth transition for click effect */
 }
 
 button:hover {
   opacity: 0.9;
 }
 
+button:active {
+  transform: translate(2px, 2px); /* Moves the button to mimic being pressed */
+  box-shadow: none; /* Removes shadow to complete the pressed effect */
+}
