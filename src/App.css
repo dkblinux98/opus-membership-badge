@@ -30,15 +30,3 @@ button:active {
   transform: translate(2px, 2px); /* Moves the button to mimic being pressed */
   box-shadow: none; /* Removes shadow to complete the pressed effect */
 }
-
-.badge-container {
-    display: flex;
-    justify-content: center; /* Center horizontally */
-    align-items: center;     /* Center vertically */
-    height: 100vh;           /* Set to the height of the viewport, adjust as needed */
-}
-
-.badge-container img {
-    max-width: 100px;
-    height: auto;
-}

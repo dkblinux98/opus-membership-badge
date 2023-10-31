@@ -19,7 +19,7 @@ const BadgeDisplay = () => {
   };
 
   return (
-    <div className="badge-container">
+    <div>
       <h1>Proudly Display Your Opus Membership on Your Site</h1>
       <p>Copy the code below to embed our badge on your website:</p>
       <textarea
