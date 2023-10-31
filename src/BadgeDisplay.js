@@ -27,9 +27,11 @@ const BadgeDisplay = () => {
         rows="4"
         readOnly
         style={{ width: "100%" }}
-        value={`<a href="https://opusliteraryalliance.org" target="_blank">
+        value={`
+        <a href="https://opusliteraryalliance.org" target="_blank">
           <img src="http://opusdigitalbadge.s3-website.us-east-2.amazonaws.com/opus-digital-badge.png" alt="Charter Member of Opus Literary Alliance" style="max-width: 100px; height: auto;">
-        </a>`}
+        </a>
+        `}
       />
       <button onClick={copyToClipboard} style={{ backgroundColor: "#FFCC02" }}>Copy Code</button>
 
