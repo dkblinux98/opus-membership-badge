@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Opus Literary Alliance Digital Badge App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This app allows a member to grab a code snippit to display a clickable Opus Literary Alliance badge on their website
 
 ## Available Scripts
 
@@ -28,6 +28,10 @@ The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### deploy.sh
+
+Builds the app for production and deploys to an S3 bucket you've configured.
 
 ### `npm run eject`
 
