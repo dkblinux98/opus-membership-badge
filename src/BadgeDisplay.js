@@ -22,17 +22,14 @@ const BadgeDisplay = () => {
     <div>
       <h1>Proudly Display Your Opus Membership on Your Site</h1>
       <p>Copy the code below to embed our badge on your website:</p>
-      <textarea
-        id="badgeCode"
-        rows="4"
-        readOnly
-        style={{ width: "100%" }}
-        value={`
-        <a href="https://opusliteraryalliance.org" target="_blank">
-          <img src="https://d17d3qn9nwnk8d.cloudfront.net/opus-digital-badge.png" alt="Charter Member of Opus Literary Alliance" style="max-width: 100px; height: auto;">
-        </a>
-        `}
-      />
+      <textarea id="badgeCode" rows="10" readonly style="width: 100%;">
+        <div style="display: flex; justify-content: center; align-items: center;">
+          <a href="https://opusliteraryalliance.org" target="_blank">
+            <img src="https://d17d3qn9nwnk8d.cloudfront.net/opus-digital-badge.png" alt="Charter Member of Opus Literary Alliance" style="max-width: 100px; height: auto;">
+          </a>
+        </div>
+      </textarea>
+
       <button onClick={copyToClipboard} style={{ backgroundColor: "#FFCC02" }}>Copy Code</button>
 
       <h2>How to Add this Badge to Your Site</h2>
