@@ -30,7 +30,7 @@ const BadgeDisplay = () => {
                 value={`
                     <div style="display: flex; justify-content: center; align-items: center;">
                         <a href="https://opusliteraryalliance.org" target="_blank">
-                            <img src="https://d17d3qn9nwnk8d.cloudfront.net/opus-digital-badge.png" alt="Charter Member of Opus Literary Alliance" style="max-width: 100px; height: auto;">
+                            <img src="https://badge.opusliteraryalliance.org/opus-digital-badge.png" alt="Charter Member of Opus Literary Alliance" style="max-width: 100px; height: auto;">
                         </a>
                     </div>
                 `}
